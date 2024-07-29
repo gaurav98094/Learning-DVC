@@ -26,3 +26,10 @@ dvc add data/train.csv
 git commit -m "Modifed Dataset"
 dvc push
 ```
+
+# Moving Back in time
+```
+git log --oneline
+git checkout HEAD^1 data/train.csv.dvc
+dvc checkout
+```
