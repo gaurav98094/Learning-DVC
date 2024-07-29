@@ -22,6 +22,7 @@ dvc pull
 
 # Now modify the dataset
 dvc diff
-
 dvc add data/train.csv
+git commit -m "Modifed Dataset"
+dvc push
 ```
