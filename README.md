@@ -17,4 +17,11 @@ git commit -m "Basic Configuration Done"
 dvc push
 
 
+# Delete everything and then
+dvc pull
+
+# Now modify the dataset
+dvc diff
+
+dvc add data/train.csv
 ```
